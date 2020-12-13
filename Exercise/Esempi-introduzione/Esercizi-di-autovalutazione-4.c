@@ -19,10 +19,12 @@
 
 int main(void) {
     unsigned int x;
+    puts("Inserisci un intero x:");
     scanf("%u \n", &x);
 
     unsigned int y;
-    scanf("%u \n", y);
+    puts("Inserisci un intero y");
+    scanf("%u \n", &y);
 
     unsigned int i = 1;
 
@@ -30,10 +32,8 @@ int main(void) {
 
     power *= x;
 
-    i++;
-
     while(i <= y) {
-
+       i++;
     }
 
     printf("%u \n", power);
