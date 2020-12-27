@@ -47,7 +47,7 @@ void inizializzaArray(int numeriPrimi[]) {
 } 
 
 /*
-
+    Inizializza l'array con i numeri da 1 a 1000
 */
 
 void inizializzaArrayDiNumeri(int numeri[]) {
@@ -78,7 +78,9 @@ void controllaArray(int numeriPrimi[]) {
 }
 
 /*
-
+    Confronta l'array numeriPrimi con l'array numeri, se l'elemento all'indice x 
+    di numeriPrimi corripsonde a 1, viene stampato l'elemento all'indice x
+    dell'array numeri.
 */
 
 void stampaNumeriPrimi(const int numeriPrimi[], int numeri[]) {
